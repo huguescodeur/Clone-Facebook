@@ -1,0 +1,133 @@
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: #1f262c;
+}
+
+.section--global {
+  padding: 0 20px;
+}
+
+/* ? Section Navbar */
+.section--navbar {
+  height: 60px;
+  width: 100%;
+  /* background-color: blueviolet; */
+}
+
+.div--nav {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background-color: #1b252e;
+  border-bottom: 1px solid blue;
+}
+
+.div--icon,
+.div--home,
+.div--search,
+.div--profil {
+  /* background-color: red; */
+  /* border: 1px solid white; */
+  height: 100%;
+  width: 23%;
+  display: flex;
+  align-items: center;
+}
+
+.style--icons,
+.profil--image {
+  height: 30px;
+  /* width: 30px; */
+}
+
+.div--home .home--logo {
+  /* background-color: green; */
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.div--search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* width: 60%; */
+}
+
+.div--search .search {
+  border: 1px solid gray;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background-color: gray; */
+}
+
+.div--search .search-input {
+  padding: 10px 30px;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  color: gray;
+}
+
+.div--profil {
+  display: flex;
+  justify-content: space-around;
+}
+
+.div--profil .div--profil-image {
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+  /* border: 2px solid red; */
+}
+
+.div--profil-image .profil--image {
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+  /* object-fit: fill; */
+}
+
+.div--profil .div--icons--profil {
+  height: 100%;
+  width: 40%;
+  /* border: 2px solid red; */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.div--icons--profil .profil--icons {
+  height: 30px;
+  width: 30px;
+  border: 1px solid gray;
+  border-radius: 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.div--icons--profil .cloche {
+  position: relative;
+}
+
+.profil--icons .rouge {
+  height: 6px;
+  width: 6px;
+  border-radius: 50%;
+  background-color: red;
+  position: absolute;
+  top: 2px;
+  right: 2px;
+}
+
+.profil--icons .logo--profil {
+  height: 18px;
+}
