@@ -216,9 +216,75 @@ body {
 .section--main .main--milieu {
   min-height: 800px;
   width: 50%;
-  border-left: 1px solid white;
-  border-right: 1px solid white;
+  /* border-left: 1px solid white;
+  border-right: 1px solid white; */
   /* background-color: green; */
+}
+
+.main--milieu .div--milieu--1 {
+  height: 230px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  /* background-color: skyblue; */
+}
+
+.div--milieu--1 .div--storie {
+  height: 100%;
+  width: 22%;
+  /* border: 2px solid green; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* padding-top: 10px; */
+  align-items: center;
+  position: relative;
+}
+
+.div--storie .storie {
+  height: 50%;
+  width: 90%;
+  background-color: red;
+  border-radius: 8px;
+  /* margin-bottom: 40px; */
+}
+
+.mini--profil .profil--storie--img {
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.storie .storie--img {
+  height: 100%;
+  width: 100%;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.div--storie .mini--profil {
+  height: 30px;
+  width: 30px;
+  background-color: rgba(50, 76, 215, 1);
+  position: absolute;
+  left: 50%;
+  bottom: 65px;
+  transform: translateX(-50%);
+  border-radius: 50%;
+  margin-bottom: 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: solid rgba(50, 76, 215, 1);
+}
+
+.mini--profil .logo--add {
+  height: 20px;
+}
+
+.div--storie .title {
+  color: #ffffff;
 }
 
 /* * Main Droite */
