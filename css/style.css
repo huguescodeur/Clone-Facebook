@@ -365,8 +365,8 @@ body {
 .infos--pub .infos--pub--profil {
   /* border: 2px solid orange; */
   display: flex;
-  /* min-width: 30%; */
-  justify-content: space-around;
+  width: 50%;
+  /* justify-content: sp; */
   /* width: ; */
 }
 
@@ -409,7 +409,7 @@ body {
 .infos--pub .infos--pub--icons {
   /* border: 2px solid red; */
   margin-right: 10px;
-  width: 20%;
+  width: 50%;
   /* display: flex; */
 }
 
